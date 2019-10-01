@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>범인은 바로 남수아!</title>
+	<meta charset="utf-8">
+<style type="text/css">
+
+
+	
+
+
+    .img10{display: block; position: absolute; right:0px; margin-top:83px; width: 40%;}
+    .img11{display: block; position: absolute; right:300px; top:520px; width: 70%; }
+
+	.m10{position: absolute; top: 20px; animation: lo10 1s; animation-fill-mode: forwards;}
+				@keyframes lo10{
+				from{right:0px}
+				to{right:30px}
+	.m11{position: absolute; top: 20px; animation: lo11 1s; transition-delay: 3s;}
+				@keyframes lo11{
+				from{opacity:0.1;}
+				to{opacity: 1;}
+
+</style>
+</head>
+
+<body style="background-image:url('b.png');"> 
+
+ 
+        <img src="f.png" class="f" style="display: block; position: absolute; top:40px; right: 70px;" id="ff">
+        <img src="4.png" class="d" style="display: block; position: absolute; top:20px; left:220px;" id="aa">
+        <img src="3.png" class="c" style="display: block; position: absolute; top:200px; left:70px;" id="bb">
+       
+        <img src="5.png" class="e" style="display: block; position: absolute; top:40px; left:450px;" id="cc">
+        <img src="2.png" class="b" style="display: block; position: absolute; top:235px; left:300px;" id="dd">
+        <img src="1.png" class="a" style="display: block; position: absolute; top:160px; left:700px;" id="ee">
+
+		<img src="t.png" class="img11 collagepic collage m11" id="ttt">
+		<img src="t2.png" class="img11 collagepic collage m11" id="ttt2" style="opacity: 0">
+		<img src="c.png" class="img10 collagepic collage m10">
+		
+
+		<audio src="1.mp4" id="a"></audio>
+		<audio src="2.mp4" id="b"></audio>
+		<audio src="3.mp4" id="c"></audio>
+		<audio src="4.mp4" id="d"></audio>
+		<audio src="5.mp4" id="e"></audio>
+		<audio src="c.mp3" id="f"></audio>
+
+	<script type="text/javascript">
+
+                ff.onclick = function(){
+				a.pause();
+				b.pause();
+				c.pause();
+				d.pause();
+				e.pause();
+				f.play();
+				aa.style.opacity = "0.4";
+				bb.style.opacity = "0.4";
+				cc.style.opacity = "0.4";
+				dd.style.opacity = "1";
+				ee.style.opacity = "0.4";
+                ttt.src = "t2.png";
+                ttt2.style.opacity = "1";
+
+			    }
+
+		aa.onclick = function(){
+				a.play();
+				b.pause();
+				c.pause();
+				d.pause();
+				e.pause();
+				aa.style.opacity = "1";
+				bb.style.opacity = "0.4";
+				cc.style.opacity = "0.4";
+				dd.style.opacity = "0.4";
+				ee.style.opacity = "0.4";
+		}
+				
+		bb.onclick = function(){
+				b.play();
+				a.pause();
+				c.pause();
+				d.pause();
+				e.pause();
+                aa.style.opacity = "0.4";
+                bb.style.opacity = "1";
+				cc.style.opacity = "0.4";
+				dd.style.opacity = "0.4";
+				ee.style.opacity = "0.4";
+				
+				
+
+		}
+		cc.onclick = function(){
+				c.play();
+				a.pause();
+				b.pause();
+				d.pause();
+				e.pause();
+				
+
+
+				bb.style.opacity = "0.4";
+				aa.style.opacity = "0.4";
+				cc.style.opacity = "1";
+				dd.style.opacity = "0.4";
+				ee.style.opacity = "0.4";
+				
+		}
+		dd.onclick = function(){
+				d.play();
+				a.pause();
+				b.pause();
+				c.pause();
+				e.pause();
+
+
+
+				bb.style.opacity = "0.4";
+				cc.style.opacity = "0.4";
+				aa.style.opacity = "0.4";
+				ee.style.opacity = "0.4";
+				dd.style.opacity = "1";
+				
+
+		}
+		ee.onclick = function(){
+				e.play();
+				a.pause();
+				b.pause();
+				c.pause();
+				d.pause();
+
+
+
+				bb.style.opacity = "0.4";
+				cc.style.opacity = "0.4";
+				dd.style.opacity = "0.4";
+				aa.style.opacity = "0.4";
+				ee.style.opacity = "1";
+				
+		}
+
+	</script>
+
+	
+<body>  
+</body>  
+</html> 
